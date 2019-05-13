@@ -8,7 +8,7 @@
 ## 获取组件
 
 ```js
-import { Popover, Whisper } from "rsuite";
+import { Popover, Whisper } from 'rsuite';
 ```
 
 ## 演示
@@ -33,13 +33,14 @@ import { Popover, Whisper } from "rsuite";
 | delay      | number                                                           | 延迟时间                        |
 | delayHide  | number                                                           | 隐藏的延迟时间                  |
 | delayShow  | number                                                           | 展示的延迟时间                  |
+| open       | boolean                                                          | 显示 Popover                    |
 | onBlur     | () => void                                                       | 失去焦点回调函数                |
 | onClick    | () => void                                                       | 点击的回调函数                  |
 | onClose    | ()=>void                                                         | 关闭回调函数                    |
 | onFocus    | () => void                                                       | 获取焦点的回调函数              |
 | onMouseOut | () => void                                                       | 鼠标离开的回调函数              |
 | onOpen     | ()=>void                                                         | 打开回调函数                    |
-| placement  | enum: [PlacementAll](#types) `('right')`                           | 显示位置                        |
+| placement  | enum: [PlacementAll](#types) `('right')`                         | 显示位置                        |
 | speaker \* | union: Tooltip, Popover                                          | 展示的元素                      |
 | trigger    | union: 'click', 'hover', 'focus', 'active' `(['hover','focus'])` | 触发事件,可以通过数组配置多事件 |
 | triggerRef | React.ElementRef                                                 | trigger 的 ref                  |
